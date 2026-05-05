@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Contact Me!</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Rikka">
+        <meta name="description" content="Contact Me!">
+        <link rel="icon" href="img/liuhua.jpg" type="image/x-icon">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>  
+        <header>
+            <h1>Welcome to Contact Me!</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="/#personal">Personal Info</a>
+                    </li>
+                    <li>
+                        <a href="/#portfolio">Portfolio</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <hr>
+        <main>
+            <section>
+                <h2>Contact Me</h2>
+                <form action="http://httpbin.org/get" method="get">
+                    <fieldset>
+                        <legend>Please Write Your Message</legend>
+                        <p>
+                            <label for="name">Name:</label>
+                            <input type="text" name="name" id="name" placeholder="Your Name" required autofocus>
+                        </p>
+                        <p>
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" id="email" placeholder="Your Email" required>
+                        </p>
+                        <p>
+                            <label for="massage">Your Massage</label>
+                            <br>
+                            <textarea name="massage" id="massage" rows="10" cols="30" placeholder="Type Your Massage"></textarea>
+                        </p>
+                    </fieldset>
+                    <button type="submit">Send</button>
+                    <button type="reset">Reset</button>
+                </form>
+            </section>
+            <section>
+                <h2>My address</h2>
+                <address>
+                    555 Taco temptation Lane, Suite T <br>
+                    Kansas City,MO 55555-5555
+                    <br><br>
+                    Phone: <a href="tel:+55555555555">555-555-5555</a>
+                </address>
+
+            </section>
+
+        </main>
+        <hr>
+        <footer>
+            <p>Write By &copy; RIkka </p>
+        </footer>
+    </body>
+</html>
